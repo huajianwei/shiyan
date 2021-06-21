@@ -55,7 +55,7 @@ MVC的主要关系还是observer ， composite ，strategy 三个模式给出
 
 22. Template Method 模版方法 定义一个操作中的算法的骨架，将一些步骤延迟到子类中。可以使子类不改变一个算法的结构而重新定义该算法的某些特定步骤。
 
-23. Visitor 访客模式：表示一个作用于某对象结构中的各元素的操作，时在不改变各元素类的前提下定义作用于这些元素的新操作。
+23. Visitor 访客模式：表示一个作用于某对象结构中的各元素的操作，是在不改变各元素类的前提下定义作用于这些元素的新操作。
 
     
 
@@ -64,3 +64,22 @@ MVC的主要关系还是observer ， composite ，strategy 三个模式给出
 | 类   | Factory Method                                              | Adapter                                                      | Interpreter<br />Temlate Method                              |
 | 对象 | Abstract Factory<br />Builder<br />Prototype<br />Singleton | Adapter<br />Bridge<br />Composite<br />Decorator<br />Facade<br />Flyweight<br />Proxy | Chain responsibility<br />Conmmand<br />Iterrtor<br />Mediator<br />Memento<br />Observer<br />State<br />Strategy<br />Visitor |
 
+
+
+设计模式4步曲
+
+1 寻找何时的对象
+
+​	分析 抽象 封装
+
+2 决定对象的粒度
+
+​	对象的分解，组合，大量的小粒度对象，生成其他的对象，其它的对象访问
+
+3 指定对象接口
+
+​	对象的所有signature的集合就是interface
+
+4 描述对象的实现
+
+​	类 实例 类继承 子类 超类 抽象类 具体类
