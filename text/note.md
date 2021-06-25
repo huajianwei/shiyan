@@ -83,3 +83,4 @@ MVC的主要关系还是observer ， composite ，strategy 三个模式给出
 4 描述对象的实现
 
 ​	类 实例 类继承 子类 超类 抽象类 具体类
+5 hello
